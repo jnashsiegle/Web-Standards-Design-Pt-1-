@@ -1,0 +1,266 @@
+/* Branding Overrides */
+/* --------------------- [  BADGES  ] */
+
+.badge.skin-default {
+  background-color: #f15c2a;
+}
+.badge.skin-default > a {
+  background-color: #f15c2a;
+}
+.badge.skin-light {
+  color: #473d24;
+}
+.badge.skin-light > a {
+  color: #473d24;
+}
+
+/* --------------------- [  CIRCLES  ] */
+
+a.circle:hover {
+  background-color: #f15c2a;
+}
+.circle.skin-default {
+  background-color: #f15c2a;
+}
+
+/* --------------------- [  COURSE BANNER  ] */
+
+#course_banner .block a i:hover {
+  color: #f15c2a;
+}
+#course_banner .avatar {
+  border: solid 1px #bbbbbb;
+}
+
+/* --------------------- [  DATEPICKER  ] */
+
+.datepicker .today.active.day {
+  background-color: #f15c2a;
+}
+.datepicker .today.active.day:hover {
+  background-color: #f26c3f;
+}
+
+/* --------------------- [  DROPDOWN  ] */
+
+.dropdown a.link-secondary .caret {
+  border-top: 4px solid #bbbbbb;
+}
+.dropdown a.link-primary .caret {
+  border-top-color: #bbbbbb;
+}
+.dropdown .dropdown-menu .error-message {
+  color: #473d24;
+}
+.dropdown .dropdown-menu > li > a {
+  color: #f15c2a;
+}
+.dropdown .dropdown-menu > li > a:hover {
+  background-color: #f15c2a;
+}
+.dropdown .dropdown-menu .btn-link {
+  color: #f15c2a;
+}
+.dropdown .dropdown-menu .btn-link:hover {
+  background-color: #f15c2a;
+}
+.dropdown.skin-hilight .dropdown-menu a:hover {
+  background-color: #f15c2a;
+}
+.dropdown.skin-hilight .dropdown-menu a .name {
+  color: #f15c2a;
+}
+.dropdown.skin-hilight .dropdown-menu a.link-bottom {
+  color: #f15c2a;
+}
+#recent_notifications .dropdown-menu > li > a,
+#messages .dropdown-menu > li > a {
+  color: #473d24;
+}
+#recent_notifications .dropdown-menu li:last-child a,
+#messages .dropdown-menu li:last-child a {
+  color: #f15c2a;
+}
+.open .dropdown-toggle.link-primary .caret {
+  border-top-color: #bbbbbb;
+}
+.loading {
+  color: #473d24;
+}
+
+/* --------------------- [  DROPZONE  ] */
+
+.uploader-files tr td.name a.file-name {
+  color: #f15c2a;
+}
+
+/* --------------------- [  FOOTER  ] */
+
+#footer a,
+#footer .container a {
+  color: #f15c2a;
+}
+
+#footer a:hover {
+  color: #c04921;
+}
+
+/* --------------------- [  FORMS  ] */
+
+input:focus {
+  border-color: #f15c2a;
+  -webkit-box-shadow: inset 0px 0px 3px hsla(15,87%,55%, 0.5);
+  box-shadow: inset 0px 0px 3px hsla(15,87%,55%, 0.5);
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #f15c2a;
+  -webkit-box-shadow: inset 0px 0px 3px hsla(15,87%,55%, 0.5);
+  box-shadow: inset 0px 0px 3px hsla(15,87%,55%, 0.5);
+}
+section#feedback input.grade:focus,
+section#reply input.grade:focus {
+  border-color: #f15c2a;
+}
+
+/* --------------------- [  GLOBAL  ] */
+
+a {
+  color: #f15c2a;
+}
+a:hover,
+a:focus {
+  color: #f26c3f;
+}
+.grade-hilight {
+  color: #f15c2a;
+}
+.hilight {
+  color: #f15c2a;
+}
+.btn.btn-dotted-text {
+  color: #f15c2a;
+}
+
+/* --------------------- [  GRADEBOOK  ] */
+
+.gradebook-right-cell .gradebook-grade.hilight {
+  color: #f15c2a;
+}
+#gradebook_center_container .gradebook-cell .cell-data .circle.circle-hilight .circle-data {
+  color: #f15c2a;
+}
+
+/* --------------------- [  MAIN  ] */
+
+#main a.tag:hover {
+  color: #f15c2a;
+}
+
+/* --------------------- [  METABOX  ] */
+
+.metabox.grade .text-primary {
+  color: #f15c2a;
+}
+.metabox.cumulative-grade .text-primary {
+  color: #f15c2a;
+}
+
+/* --------------------- [  MODAL  ] */
+
+#page .modal .modal-body input[type='text'].input-responsive:focus,
+#page .modal .modal-body input[type='text']:focus {
+  border-color: #f15c2a;
+  -webkit-box-shadow: inset 0px 0px 3px hsla(15,87%,55%, 0.5);
+  box-shadow: inset 0px 0px 3px hsla(15,87%,55%, 0.5);
+}
+
+/* --------------------- [  PAGE SPECIFIC  ] */
+
+#main .profile-box .top .block-social i:hover {
+  color: #f15c2a;
+}
+
+/* --------------------- [  REDACTOR CUSTOM  ] */
+
+.athena-editor-wrapper .athena-editor:focus,
+.athena-editor-wrapper .athena-editor.redactor_editor:focus,
+.athena-editor-wrapper .message-body:focus {
+  border-color: #f15c2a !important;
+}
+.athena-editor-wrapper a,
+.athena-editor-wrapper .athena-editor.redactor_editor a,
+.athena-editor-wrapper .message-body a {
+  color: #f15c2a !important;
+}
+#redactor_modal input:focus,
+#redactor_modal textarea:focus {
+  border: solid 2px #f15c2a;
+  -webkit-box-shadow: inset 0px 0px 3px hsla(15,87%,55%, 0.5);
+  box-shadow: inset 0px 0px 3px hsla(15,87%,55%, 0.5);
+}
+.redactor_editor a {
+  color: #f15c2a !important;
+}
+
+/* --------------------- [  SELECT 2 CUSTOM  ] */
+
+.select2-results .select2-highlighted {
+  background-color: #f15c2a;
+}
+
+.select2-alt-container .select2-choice {
+  color: #f15c2a;
+}
+
+.select2-container-active a.select2-choice {
+  border-color: #f15c2a;
+}
+
+#page .modal .modal-body .select2-container-multi.select2-container-active .select2-choices {
+  border-color: #f15c2a;
+}
+
+/* --------------------- [  TOPBAR  ] */
+
+#topbar {
+  background-color: #473d24;
+}
+#topbar ul.inline-list > li.divider-vertical {
+  border-right: 1px solid #3f3620;
+}
+#topbar a.link-primary:hover {
+  color: #bbbbbb;
+}
+#topbar a.link-secondary {
+  color: #bbbbbb;
+}
+#topbar a.link-icon {
+  color: #bbbbbb;
+}
+#topbar .open a.link-primary .caret {
+  border-top-color: #bbbbbb;
+}
+#topbar a.link-icon.new {
+  color: #f15c2a;
+}
+
+/* --------------------- [  PACE LOADER  ] */
+
+.pace .pace-progress {
+  background-color: #f15c2a;
+}
