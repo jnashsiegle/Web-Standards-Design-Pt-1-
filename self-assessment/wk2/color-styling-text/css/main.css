@@ -1,0 +1,54 @@
+body {
+
+}
+
+h1 {
+font-family: Georgia, Times, serif;
+color: #A45A13;
+font-size: 2.5em;
+text-shadow: 2px 2px #666666;
+
+}
+
+h2 {
+font-family: Gill Sans, Arial, sans-serif;
+font-size: .9em;
+text-transform: uppercase;
+color: #F09034;
+text-shadow: 1px 1px #666666;
+}
+
+h3 {
+font-size: 1.5em;
+color: #572D05;
+text-shadow: 2px 2px #666666
+}
+
+p {
+font-family: Arial, Verdana, sans-serif;
+line-height: 1.4em;
+}
+
+p#intro {
+font-weight: bold;
+}
+
+p#credits {
+font-style: italics;
+text-align: right;
+}
+
+a:link{
+font-weight: normal;
+text-decoration: none;
+}
+a:visited {
+color: black;
+}
+a:hover {
+text-decoration: underline;
+color: #004557;
+}
+a:active {
+color: green;
+}
