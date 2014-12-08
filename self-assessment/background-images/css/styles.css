@@ -52,34 +52,42 @@ a:hover, a#current-page {
 	}
 	
 figure {
+	display: block;
 	width: 202px;
 	height: 193px;
 	margin: 0px;
 	padding: 9px;
 	background-color: #e7e3d8;
+	text-align: left;
 	}
 	
-#gallery_content, .entry {
-	text-align: center;
-	width: 900px;
-	margin: 20px, auto;
-	
-	}
-
 	.entry {
-	display: inline;
 	font-size: .7em;
 	width: 220px;
 	height: 220px;
 	float: left;
-	margin: 20px, 10px;
+	margin: 10px;
 	background-image: url(../images/shadow.png);
 	background-repeat: no-repeat;
 	background-position: bottom;
 	}
 	
-#figure, .gallery	{
-	width: 200x;
+figure img	{
+	width: 200px;
 	height: 150px;
-	border; 1px, solid, #d6d6d6;
+	border: 1px solid #d6d6d6;
 	}
+	
+figcaption {
+	background-image: url(../images/icon.png);
+	padding-top: 5px;
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	}	
+	
+
+figcaption a {
+	padding: 0px;
+	}
+	
+	
