@@ -8,14 +8,13 @@ background: #550000 url(../images/background.gif);
 				/*2 - column layout */
 
 .col1of2 {
-display: inline-block;
 float: left;
 width: 45%;
 margin: 5px;  /*10%*/
 }
 
 .col2of2 {
-display: inline-block;
+
 float: right;
 width: 45%;
 margin: 5px; /*10%*/
