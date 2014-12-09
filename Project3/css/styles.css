@@ -9,14 +9,14 @@ background: #550000 url(../images/background.gif);
 
 .col1of2 {
 float: left;
-width: 45%;
+width: 50%;
 margin: 5px;  /*10%*/
 }
 
 .col2of2 {
 
 float: right;
-width: 45%;
+width: 38%;
 margin: 5px; /*10%*/
 }
 	
@@ -161,10 +161,10 @@ figure {
 width: 20%;
 height: 15%;
 margin: 0px;
-
+}
 
 /*background-color: rgba(85, 0, 0, 0.66);*/
-}
+
 
 /*figure.gallery {
 width: 200px;
