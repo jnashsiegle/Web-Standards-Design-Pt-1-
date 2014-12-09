@@ -71,6 +71,8 @@ color: #FFAAAA;
 text-decoration: none;
 }
 
+   /*End of Navigation */
+
 					/*Beginning CSS for main section of web page */
 
 #page {						/*Same as #container */
@@ -151,6 +153,23 @@ color: #226666;
 text-decoration: none;
 }
 
-footer {
+figure {
+text-align: center;
+margin: 0px;
+padding: 10px;
+background-color: rgba(85, 0, 0, 0.66);
+}
+
+figure.gallery {
+width: 200px;
+height: 150px;
+border: 10px solid #d6d6d6;
+}
+
+
+
+.clear {
 clear: both;
 }
+
+footer{}
