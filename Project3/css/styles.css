@@ -102,6 +102,10 @@ h3 {
 font-size: .025em;
 }
 
+h2.poem {
+font-family: 'Mountains of Christmas', cursive;
+text-align: center;
+}
 blockquote {
 font-family: 'Mountains of Christmas', cursive;
 }
