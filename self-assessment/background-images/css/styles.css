@@ -61,7 +61,7 @@ figure {
 	text-align: left;
 	}
 	
-	.entry {
+	/*.entry {
 	font-size: .7em;
 	width: 220px;
 	height: 220px;
@@ -70,7 +70,7 @@ figure {
 	background-image: url(../images/shadow.png);
 	background-repeat: no-repeat;
 	background-position: bottom;
-	}
+	}*/
 	
 figure img	{
 	width: 200px;

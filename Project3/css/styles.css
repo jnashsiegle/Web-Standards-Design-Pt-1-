@@ -27,8 +27,17 @@ padding-left: 80px;
 }
 			/*Style for navigation section */
 
+
+
 #nav ul
 {
+background: #CAA805 url(../images/navbar.jpg);
+background-repeat: repeat-x;
+border-style: double;
+border-color: #00A12E;
+border-width: 5px;
+border-radius: 1%;
+box-shadow: 2.5px 2.5px 1.5px #003B11;
 list-style-type: none;
 text-align: center;
 width: 625px;
@@ -56,6 +65,10 @@ padding: 10px;
 box-shadow: 2.5px 2.5px 1.5px #003B11;
 }
 
+#nav li a:hover {
+background-color: #550000;
+}
+
 #nav li a:link {
 color: #7B9F35;
 text-decoration: none;
@@ -81,10 +94,10 @@ text-decoration: none;
 #page {						/*Same as #container */
 background-color: rgba(85, 0, 0, 0.66);
 background-image: url(../images/tree.png);
-background-size: 30%;
+background-size: 25%;
 background-repeat: no-repeat;
-background-position: bottom 35px right 200px;
-padding-right: 40px;
+background-position: bottom 15px right 200px;
+padding-right: 20px;
 box-shadow: 5px 5px 2.5px #003B11;
 width: 90%;
 border: 10px #00A12E solid;
@@ -230,6 +243,8 @@ margin: 120px auto;
 text-align: center;
 }
 
+
+
 figure img{
 width: 50%;
 height: 45%;
@@ -237,14 +252,17 @@ margin: 0px auto 5px;
 }
 
 figcaption {
+background-color: rgba(85, 0, 0, 0.6);
+border: 2px #00A12E solid;
+padding-bottom: 10px;
 background-image: url(../images/cane.png);
-background-position: left 60px top;
+background-position: left 60px top 5px;
 background-size: 10%;
-	padding-top: 5px;
+	padding-top: 10px;
 	background-repeat: no-repeat;
 	padding-left: 0px;
 font-size: .7em;
-margin: 0px auto 75px;
+margin: 0px auto 35px;
 }
 
 
