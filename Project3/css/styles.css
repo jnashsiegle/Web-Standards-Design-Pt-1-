@@ -94,7 +94,7 @@ text-decoration: none;
 #page {						/*Same as #container */
 background-color: rgba(85, 0, 0, 0.66);
 background-image: url(../images/tree.png);
-background-size: 25%;
+background-size: 45%;
 background-repeat: no-repeat;
 background-position: bottom 15px right 200px;
 padding-right: 20px;
