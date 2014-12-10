@@ -234,12 +234,13 @@ background-color: rgba(85, 0, 0, 0.6);
 border: .125em #00A12E solid;
 padding-bottom: .625em;
 background-image: url(../images/cane.png);
-background-position: left 3.750em top .156em;
+background-position: left 5em top .425em;
 background-size: 10%;
 padding-top: .625em;
 background-repeat: no-repeat;
 padding-left: 0px;
 font-size: .7em;
+line-height: 1.5;
 margin: 0 auto 2.188em;
 }
 
