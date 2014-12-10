@@ -1,5 +1,5 @@
 body {
-font-family:  Verdana, Courier, Arial;
+font: normal 100%  Verdana, Courier, Arial;
 line-height: 1.5;
 color: #ffffff;
 background: #550000 url(../images/background.gif) ;
@@ -11,19 +11,19 @@ background: #550000 url(../images/background.gif) ;
 
 .col1of2 {
 float: left;
-width: 660px;
+width: 55%;
 margin: 0 auto; 
-padding-left: 40px;
-padding-right: 40px;
-padding-bottom: 20px;
+padding-left: 2.5em;
+padding-right: 2.5em;
+padding-bottom: 1.25em;
 }
 
 .col2of2 {
 
 float: left;
-width: 300px;
+width: 30%;
 margin: 0 auto; 
-padding-left: 80px;
+padding-left: 5em;
 }
 			/*Style for navigation section */
 
@@ -35,13 +35,13 @@ background: #CAA805 url(../images/navbar.jpg);
 background-repeat: repeat-x;
 border-style: double;
 border-color: #00A12E;
-border-width: 5px;
+border-width: .313em;
 border-radius: 1%;
-box-shadow: 2.5px 2.5px 1.5px #003B11;
+box-shadow: .156em .156em .094em #003B11;
 list-style-type: none;
 text-align: center;
-width: 625px;
-padding: 15px;
+width: 60.25%;
+padding: .938em;
 margin: 0 auto;
 }
 
@@ -61,8 +61,8 @@ line-height: 2em;
 width: 10em;
 text-decoration: none;
 text-align: center;
-padding: 10px;
-box-shadow: 2.5px 2.5px 1.5px #003B11;
+padding: .625em;
+box-shadow: .156em .156em .094em #003B11;
 }
 
 #nav li a:hover {
@@ -94,16 +94,16 @@ text-decoration: none;
 #page {						/*Same as #container */
 background-color: rgba(85, 0, 0, 0.66);
 background-image: url(../images/tree.png);
-background-size: 45%;
+background-size: 35%;
 background-repeat: no-repeat;
-background-position: bottom 15px right 200px;
-padding-right: 20px;
-box-shadow: 5px 5px 2.5px #003B11;
+background-position: bottom right 7em;
+padding-right: 1.250em;
+box-shadow: .156em .156em .094em #003B11;
 width: 90%;
-border: 10px #00A12E solid;
+border: .625em #00A12E solid;
 border-radius: 1%;
-margin: 20px auto;
-padding: 2%;
+margin: 1.250em auto;
+padding: 1.250em;
 overflow: hidden;
 }
 
@@ -119,26 +119,12 @@ font-weight: bold;
 }
 
 h2 {
-text-shadow: 3px 2.5px #330000;
+text-shadow: .188em .156em #330000;
 }
 
 h3 {
 font-size: .025em;
 }
-
-/*CSS for poem and background of bq */
-
-/*.bq_bkg {
-background-color: rgba(85, 0, 0, 0.66);
-width: 320px;
-box-shadow: 5px 5px 2.5px #003B11;
-border: 5px #00A12E solid;
-border-radius: 10%;
-margin: 60px auto;
-padding-right: 5px;
-padding-bottom: 10px;
-padding-top: 10px;
-}                             Original background css*/
 
 .bq_bkg {
 background: #9e000f; /* Old browsers */
@@ -149,14 +135,14 @@ background: -o-linear-gradient(top,  #9e000f 0%,#e80027 22%,#ffafb1 48%,#99c4a4 
 background: -ms-linear-gradient(top,  #9e000f 0%,#e80027 22%,#ffafb1 48%,#99c4a4 58%,#00942f 85%,#006014 100%); /* IE10+ */
 background: linear-gradient(to bottom,  #9e000f 0%,#e80027 22%,#ffafb1 48%,#99c4a4 58%,#00942f 85%,#006014 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e000f', endColorstr='#006014',GradientType=0 ); /* IE6-9 */
-width: 320px;
-box-shadow: 5px 5px 2.5px #003B11;
-border: 5px #00A12E solid;
+width: 20em;
+box-shadow: .156em .156em .094em #003B11;
+border: .313em #00A12E solid;
 border-radius: 10%;
-margin: 60px auto;
-padding-right: 5px;
-padding-bottom: 10px;
-padding-top: 10px;
+margin: 3.750em auto;
+padding-right: .313em;
+padding-bottom: .625em;
+padding-top: .625em;
 }
 
 h2.poem {
@@ -170,15 +156,15 @@ font-family: 'Mountains of Christmas', cursive;
 font-weight: bold;
 color: #ffffff;
 text-align: center;
-width: 300px;
-height: 250px;
+width: 18.750em;
+height: 15.625em;
 margin: auto;
 }
 
 /*End of poem */
 
 li {
-margin: 10px 20px;
+margin: .625em 1.25em;
 }
 		
 			/* List for list of Christmas Resources of Fiction */
@@ -188,7 +174,7 @@ margin: 10px 20px;
 }
 
 #fiction li{
-font-size: 12px;
+font-size: .750em;
 }
 
 		/* Non-Navigational-related external links */
@@ -220,13 +206,6 @@ text-decoration: none;
 
 
 .gallery {
-/*background-color: rgba(85, 0, 0, 0.66);
-width: 320px;
-box-shadow: 5px 5px 2.5px #003B11;
-border: 5px #00A12E solid;
-border-radius: 10%;
-margin: 120px auto;
-text-align: center;              Original css before gradient*/
 background: #006014; /* Old browsers */
 background: -moz-linear-gradient(top,  #006014 0%, #00942f 15%, #99c4a4 42%, #ffafb1 52%, #e80027 78%, #9e000f 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#006014), color-stop(15%,#00942f), color-stop(42%,#99c4a4), color-stop(52%,#ffafb1), color-stop(78%,#e80027), color-stop(100%,#9e000f)); /* Chrome,Safari4+ */
@@ -235,11 +214,11 @@ background: -o-linear-gradient(top,  #006014 0%,#00942f 15%,#99c4a4 42%,#ffafb1 
 background: -ms-linear-gradient(top,  #006014 0%,#00942f 15%,#99c4a4 42%,#ffafb1 52%,#e80027 78%,#9e000f 100%); /* IE10+ */
 background: linear-gradient(to bottom,  #006014 0%,#00942f 15%,#99c4a4 42%,#ffafb1 52%,#e80027 78%,#9e000f 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006014', endColorstr='#9e000f',GradientType=0 ); /* IE6-9 */
-width: 320px;
-box-shadow: 5px 5px 2.5px #003B11;
-border: 5px #00A12E solid;
+width: 20em;
+box-shadow: .156em .156em .094em #003B11;
+border: .156em #00A12E solid;
 border-radius: 10%;
-margin: 120px auto;
+margin: 7.5em auto;
 text-align: center;
 }
 
@@ -253,16 +232,16 @@ margin: 0px auto 5px;
 
 figcaption {
 background-color: rgba(85, 0, 0, 0.6);
-border: 2px #00A12E solid;
-padding-bottom: 10px;
+border: .125em #00A12E solid;
+padding-bottom: .625em;
 background-image: url(../images/cane.png);
-background-position: left 60px top 5px;
+background-position: left 3.750em top .156em;
 background-size: 10%;
-	padding-top: 10px;
+	padding-top: .625em;
 	background-repeat: no-repeat;
 	padding-left: 0px;
 font-size: .7em;
-margin: 0px auto 35px;
+margin: 0 auto 2.188em;
 }
 
 
