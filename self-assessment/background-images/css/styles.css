@@ -80,6 +80,7 @@ figure img	{
 	
 figcaption {
 	background-image: url(../images/icon.png);
+	background-size: 1%;
 	padding-top: 5px;
 	background-repeat: no-repeat;
 	padding-left: 25px;
