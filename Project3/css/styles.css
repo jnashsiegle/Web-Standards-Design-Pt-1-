@@ -2,7 +2,8 @@ body {
 font-family:  Verdana, Courier, Arial;
 line-height: 1.5;
 color: #ffffff;
-background: #550000 url(../images/background.gif);
+background: #550000 url(../images/background.gif) ;
+
 }
 
 
@@ -79,6 +80,11 @@ text-decoration: none;
 
 #page {						/*Same as #container */
 background-color: rgba(85, 0, 0, 0.66);
+background-image: url(../images/tree.png);
+background-size: 30%;
+background-repeat: no-repeat;
+background-position: bottom 50px right 200px;
+padding-right: 40px;
 box-shadow: 5px 5px 2.5px #003B11;
 width: 90%;
 border: 10px #00A12E solid;
@@ -234,4 +240,10 @@ figcaption {
 font-size: .5em;
 margin: 0px auto 75px;
 }
+
+/*#tree {
+background-image: #55000 url(../images/tree.jpg);
+background-repeat: no-repeat;
+background-position: right bottom;
+}*/
 footer{}
