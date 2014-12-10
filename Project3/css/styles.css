@@ -10,15 +10,19 @@ background: #550000 url(../images/background.gif);
 
 .col1of2 {
 float: left;
-width: 45%;
-margin: 5px;  /*10%*/
+width: 660px;
+margin: 0 auto; 
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 20px;
 }
 
 .col2of2 {
 
 float: left;
-width: 40%;
-margin: 5px; /*10%*/
+width: 300px;
+margin: 0 auto; 
+padding-left: 80px;
 }
 			/*Style for navigation section */
 
@@ -74,18 +78,17 @@ text-decoration: none;
 					/*Beginning CSS for main section of web page */
 
 #page {						/*Same as #container */
-
 background-color: rgba(85, 0, 0, 0.66);
 box-shadow: 5px 5px 2.5px #003B11;
 width: 90%;
 border: 10px #00A12E solid;
 border-radius: 1%;
 margin: 20px auto;
-padding: 1%;
+padding: 2%;
 overflow: hidden;
 }
 
-p, h1, h2, blockquote {
+p, h1, h2 {
 font-family: Verdana, Courier, Arial;
 color: #ffffff;
 text-align: left;
@@ -104,15 +107,37 @@ h3 {
 font-size: .025em;
 }
 
+/*CSS for poem and background of bq */
+
+.bq_bkg {
+background-color: rgba(85, 0, 0, 0.66);
+width: 320px;
+box-shadow: 5px 5px 2.5px #003B11;
+border: 5px #00A12E solid;
+border-radius: 10%;
+margin: 60px auto;
+padding-right: 5px;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
 h2.poem {
 font-family: 'Mountains of Christmas', cursive;
-
+text-decoration: underline;
+text-align: center;
 }
-blockquote {
+
+p.poem {
 font-family: 'Mountains of Christmas', cursive;
+font-weight: bold;
+color: #ffffff;
+text-align: center;
+width: 300px;
+height: 250px;
+margin: auto;
 }
 
-
+/*End of poem */
 
 li {
 margin: 10px 20px;
@@ -155,10 +180,25 @@ color: #226666;
 text-decoration: none;
 }
 
-figure {
-width: 20%;
-height: 15%;
-margin: 0px;
+
+.gallery {
+background-color: rgba(85, 0, 0, 0.66);
+width: 320px;
+box-shadow: 5px 5px 2.5px #003B11;
+border: 5px #00A12E solid;
+border-radius: 10%;
+margin: 120px auto;
+text-align: center;
 }
 
+figure img{
+width: 50%;
+height: 45%;
+margin: 0px auto 5px;
+}
+
+figcaption {
+font-size: .5em;
+margin: 0px auto 75px;
+}
 footer{}
