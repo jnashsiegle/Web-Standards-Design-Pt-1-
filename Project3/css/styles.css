@@ -160,13 +160,13 @@ padding-top: 10px;
 }
 
 h2.poem {
-font-family: 'Mountains of Christmas';
+font-family: 'Mountains of Christmas', cursive;
 text-decoration: underline;
 text-align: center;
 }
 
 p.poem {
-font-family: 'Mountains of Christmas';
+font-family: 'Mountains of Christmas', cursive;
 font-weight: bold;
 color: #ffffff;
 text-align: center;
