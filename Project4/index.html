@@ -20,6 +20,7 @@
 	<li><a href = "#History">History</a></li>
 	<li><a href = "#Folklore">Current Folklore</a></li>
 	<li><a href = "#Literature">In Literature</a></li>
+	<li><a href = "#letter">Email Santa</a></li>
 	</ul></div></nav>
 	
 	</header>
@@ -114,10 +115,7 @@
 </section>
 
 
-<section><!-- one section of the main article -->
-
-
-	<h2 id = "Literature">In literature</h2>
+<h2 id = "Literature">Literature</h2>
 	
 Father Christmas appears in many English-language works of fiction, including the following:
 
@@ -154,11 +152,11 @@ Father Christmas appears in many English-language works of fiction, including th
 		<fieldset>
 			<legend>Write Santa an email.</legend>
 			
-				<p><label class = "santa" for = "name">My name is:</label>
-				<input type = "text" name = "name" id = "name" />
+				<p><label class = "santa-name" for = "name">My name is:</label>
+				<input type = "text" name = "name" id = "name" required	 maxlength = "40"/>
 				<br /> <br />
 				
-				<label class = "santa" for = "name">I have been</label>
+				<label class = "santa-good" for = "behavior">I have been</label>
 				<input type = "radio" name = "behavior"  id = "behavior" value = "good"  checked = "checked"/>Good
 				<input type = "radio" name = "behavior" value = "bad"  id = "behavior"/>Bad
 				<br /><br/>
@@ -172,6 +170,8 @@ Father Christmas appears in many English-language works of fiction, including th
 				<option value = "5">Japan</option>
 				</select>				
 			</p>
+			
+<!--Extra credit javascript -->
 			
 			<script type="text/javascript">
 // Auto-Grow-TextArea script.
@@ -265,6 +265,11 @@ function AutoGrowTextArea(textField)
 
 </aside>
 </div>  <!--end of gallery -->
+
+<section><!-- one section of the main article -->
+
+
+	
 
 </div> <!--end of col 2 -->
 

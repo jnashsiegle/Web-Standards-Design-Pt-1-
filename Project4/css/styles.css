@@ -221,7 +221,7 @@ width: 20em;
 box-shadow: .156em .156em .094em #003B11;
 border: .156em #00A12E solid;
 border-radius: 10%;
-margin: 7.5em auto;
+margin: 40.5em auto;
 text-align: center;
 }
 
@@ -247,6 +247,8 @@ font-size: .7em;
 line-height: 1.5;
 margin: 0 auto 2.188em;
 }
+
+
 
 /*table styling*/
 
@@ -292,6 +294,64 @@ border: 2px double #765942;
 border-radius: 10px;
 width: 50em;
 height: 4em;
+}
+
+/*End of table style */
+
+/*Beginning of style for santa letter */
+
+
+
+fieldset {
+background-color: rgba(85, 0, 0, 0.66);
+background-size: 35%;
+background-repeat: no-repeat;
+background-position: bottom right 7em;
+padding-right: 1.250em;
+box-shadow: .156em .156em .094em #003B11;
+width: 90%;
+border: .325em #00A12E solid;
+border-radius: 1%;
+margin: 1.250em auto;
+padding: 1.250em;
+overflow: hidden;
+}
+
+.santa, .santa-name, .santa-good {
+float: left;
+width: 150px;
+clear: left;
+}
+
+#submit {
+color: #ffffff;
+text-align: right;
+padding: .313em;
+margin-top: .626em;
+}
+
+#submit :hover {
+background-color: #00CC33;
+color: #ffffff;
+cursor: pointer;
+
+}
+
+input#name {
+width: 21em;
+}
+
+input#name:hover, .ta:hover{
+background-color: red;
+cursor: pointer;
+color: #ffffff;
+}
+
+input {
+border: .313em double #006633;
+}
+
+
 
 footer{}
 
