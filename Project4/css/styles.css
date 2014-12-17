@@ -316,6 +316,7 @@ border-radius: 1%;
 margin: 1.250em auto;
 padding: 1.250em;
 overflow: hidden;
+clear: both;
 }
 
 .santa, .santa-name, .santa-good {
@@ -361,7 +362,9 @@ font-size: 1em;
 
 
 
-footer{}
+footer{
+clear: both;
+}
 
 /* 
 Snippet to help table above respond to smaller devices
