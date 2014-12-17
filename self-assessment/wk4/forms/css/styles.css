@@ -133,8 +133,8 @@ font-style: italic, #666666;
 }
 
 .title {
-width: 150px;
 float: left;
+width: 150px;
 clear: left;
 }
 
@@ -144,6 +144,26 @@ border: 1px solid #006633;
 background-color: #009966;
 }
 
+#submit {
+font-color: #ffffff;
+text-align: right;
+
+}
+
+/*#submit input {
+background-color: #00cc33;
+border: 1px solid #06633;
+padding: 5px;
+margin-top: 10px;
+cursor: pointer;
+
+#submit input:hover {
+background-color: #009966;
+border: 1px solid #06633;
+padding: 5px;
+margin-top: 10px;
+
+}*/
 #submit {
 font-color: #ffffff;
 padding: 5px;

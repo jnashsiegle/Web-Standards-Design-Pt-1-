@@ -1,0 +1,252 @@
+body {
+font: normal 100%  Verdana, Courier, Arial;
+line-height: 1.5;
+color: #ffffff;
+background: #550000 url(../images/background.gif) ;
+
+}
+
+
+	/*2 - column layout */
+
+.col1of2 {
+float: left;
+width: 55%;
+margin: 0 auto; 
+padding-left: 2.5em;
+padding-right: 2.5em;
+padding-bottom: 1.25em;
+}
+
+.col2of2 {
+
+float: left;
+width: 30%;
+margin: 0 auto; 
+padding-left: 5em;
+}
+			/*Style for navigation section */
+#nav ul
+{
+background: #CAA805 url(../images/navbar.jpg);
+background-repeat: repeat-x;
+border-style: double;
+border-color: #00A12E;
+border-width: .313em;
+border-radius: 1%;
+box-shadow: .156em .156em .094em #003B11;
+list-style-type: none;
+text-align: center;
+width: 60.25%;
+padding: .938em;
+margin: 0 auto;
+}
+
+#nav li
+{
+display: inline;
+margin: 0 auto;
+}
+
+#nav li a
+{
+text-transform: uppercase;
+/*color: #0d2474;*/
+background-color: #055D00;
+height: 1em;
+line-height: 2em;
+width: 10em;
+text-decoration: none;
+text-align: center;
+padding: .625em;
+box-shadow: .156em .156em .094em #003B11;
+}
+
+#nav li a:hover {
+background-color: #550000;
+}
+
+#nav li a:link {
+color: #7B9F35;
+text-decoration: none;
+}
+
+#nav li a:visited {
+color: #ffffff;
+text-decoration: none;
+}
+
+#nav li a:hover {
+color: #D46A6A;
+text-decoration: underline;
+}
+
+#nav li a:active {
+color: #FFAAAA;
+text-decoration: none;
+}
+
+/*End Navigation CSS */
+
+					/*Beginning CSS for main section of web page */
+
+#page {						/*Same as #container */
+background-color: rgba(85, 0, 0, 0.66);
+background-image: url(../images/tree.png);
+background-size: 35%;
+background-repeat: no-repeat;
+background-position: bottom right 7em;
+padding-right: 1.250em;
+box-shadow: .156em .156em .094em #003B11;
+width: 90%;
+border: .625em #00A12E solid;
+border-radius: 1%;
+margin: 1.250em auto;
+padding: 1.250em;
+overflow: hidden;
+}
+
+h1 {
+font-size: 2em;
+}
+
+p, h1, h2 {
+font-family: Verdana, Courier, Arial;
+color: #ffffff;
+text-align: left;
+}
+
+h1 {
+text-shadow: 3px 2.5px #330000;
+font-weight: bold;
+}
+
+h2 {
+text-shadow: .188em .156em #330000;
+}
+
+h3 {
+font-size: .025em;
+}
+
+.bq_bkg {
+background: #9e000f; /* Old browsers */
+background: -moz-linear-gradient(top,  #9e000f 0%, #e80027 22%, #ffafb1 48%, #99c4a4 58%, #00942f 85%, #006014 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9e000f), color-stop(22%,#e80027), color-stop(48%,#ffafb1), color-stop(58%,#99c4a4), color-stop(85%,#00942f), color-stop(100%,#006014)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #9e000f 0%,#e80027 22%,#ffafb1 48%,#99c4a4 58%,#00942f 85%,#006014 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #9e000f 0%,#e80027 22%,#ffafb1 48%,#99c4a4 58%,#00942f 85%,#006014 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #9e000f 0%,#e80027 22%,#ffafb1 48%,#99c4a4 58%,#00942f 85%,#006014 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #9e000f 0%,#e80027 22%,#ffafb1 48%,#99c4a4 58%,#00942f 85%,#006014 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e000f', endColorstr='#006014',GradientType=0 ); /* IE6-9 */
+width: 20em;
+box-shadow: .156em .156em .094em #003B11;
+border: .313em #00A12E solid;
+border-radius: 10%;
+margin: 3.750em auto;
+padding-right: .313em;
+padding-bottom: .625em;
+padding-top: .625em;
+}
+
+h2.poem {
+font-family: 'Mountains of Christmas', cursive;
+text-decoration: underline;
+text-align: center;
+}
+
+p.poem {
+font-family: 'Mountains of Christmas', cursive;
+font-weight: bold;
+color: #ffffff;
+text-align: center;
+width: 18.750em;
+height: 15.625em;
+margin: auto;
+}
+
+/*End of poem */
+
+li {
+margin: .625em 1.25em;
+}
+		
+			/* List for list of Christmas Resources of Fiction */
+			
+#fiction ul {
+
+}
+
+#fiction li{
+font-size: .750em;
+}
+
+		/* Non-Navigational-related external links */
+		
+a {
+text-decoration: none;
+color: #7B9F35
+}
+
+a:link {
+color: #7B9F35;
+text-decoration: none;
+}
+
+a:visited {
+color: #678265;
+text-decoration: none;
+}
+
+a:hover {
+color: #2D882D;
+text-decoration: underline;
+}
+
+a:active {
+color: #226666;
+text-decoration: none;
+}
+
+/*Santa Pictures */
+.gallery {
+background: #006014; /* Old browsers */
+background: -moz-linear-gradient(top,  #006014 0%, #00942f 15%, #99c4a4 42%, #ffafb1 52%, #e80027 78%, #9e000f 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#006014), color-stop(15%,#00942f), color-stop(42%,#99c4a4), color-stop(52%,#ffafb1), color-stop(78%,#e80027), color-stop(100%,#9e000f)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #006014 0%,#00942f 15%,#99c4a4 42%,#ffafb1 52%,#e80027 78%,#9e000f 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #006014 0%,#00942f 15%,#99c4a4 42%,#ffafb1 52%,#e80027 78%,#9e000f 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #006014 0%,#00942f 15%,#99c4a4 42%,#ffafb1 52%,#e80027 78%,#9e000f 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #006014 0%,#00942f 15%,#99c4a4 42%,#ffafb1 52%,#e80027 78%,#9e000f 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006014', endColorstr='#9e000f',GradientType=0 ); /* IE6-9 */
+width: 20em;
+box-shadow: .156em .156em .094em #003B11;
+border: .156em #00A12E solid;
+border-radius: 10%;
+margin: 7.5em auto;
+text-align: center;
+}
+
+
+
+figure img{
+width: 50%;
+height: 45%;
+margin: 0px auto 5px;
+}
+
+figcaption {
+background-color: rgba(85, 0, 0, 0.6);
+border: .125em #00A12E solid;
+padding-bottom: .625em;
+background-image: url(../images/cane.png);
+background-position: left 5em top .425em;
+background-size: 10%;
+padding-top: .625em;
+background-repeat: no-repeat;
+padding-left: 0px;
+font-size: .7em;
+line-height: 1.5;
+margin: 0 auto 2.188em;
+}
+
+
+footer{}
