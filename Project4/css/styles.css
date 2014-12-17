@@ -319,7 +319,7 @@ overflow: hidden;
 
 .santa, .santa-name, .santa-good {
 float: left;
-width: 150px;
+width: 9.375em;
 clear: left;
 }
 
@@ -328,6 +328,9 @@ color: #ffffff;
 text-align: right;
 padding: .313em;
 margin-top: .626em;
+}
+input#submit {
+
 }
 
 #submit :hover {
@@ -349,6 +352,9 @@ color: #ffffff;
 
 input {
 border: .313em double #006633;
+background-color:
+font-size: 1em;
+
 }
 
 
